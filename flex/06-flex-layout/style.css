@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -24,3 +26,69 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.header {
+  display: flex;
+  border: 2px solid red;
+  
+}
+
+.right-links-two{
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  padding-right: 10px;
+  flex-grow: 1;
+  
+}
+
+.left-links-one {
+  display: flex;
+  list-style-type: none;
+  justify-content: start;
+  padding-left: 10px;
+  gap: 8px;
+  flex-grow: 1;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 130px
+  
+  
+}
+  
+.footer {
+  display: flex;
+  border: 2px solid red;
+  flex-direction: row;
+  background-color: rgb(209, 188, 188);
+  
+}
+
+.right-links {
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+  align-items:flex-end;
+  justify-content: flex-end;
+  border: 2px solid red;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+
+.left-links {
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+  align-items: flex-end;
+  border: 2px solid red;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
